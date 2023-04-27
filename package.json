@@ -1,0 +1,35 @@
+{
+  "name": "fruz-config",
+  "version": "1.0.0",
+  "description": "fruz-config is a pre-configured TypeScript configuration file with recommended settings and optimizations for TypeScript projects, providing a quick and easy way to set up a new project with minimal configuration.",
+  "main": "index.js",
+  "author": "Faithful Anumoka",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/heyfruz/fruz-config.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyfruz/fruz-config.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint-import-resolver-babel-module": "^5.3.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-native": "^4.0.0",
+    "prettier": "^2.8.8",
+    "typescript": "5.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0"
+  },
+  "keywords": [
+    "TypeScript",
+    "configuration",
+    "tsconfig"
+  ]
+}
